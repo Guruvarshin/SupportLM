@@ -1,0 +1,244 @@
+# SupportLM: Hinglish/Tanglish Customer Support Model
+
+A fine-tuned Qwen2.5-3B model for Indian e-commerce customer support in code-switched language (Hinglish and Tanglish). Given a customer message like "mere order ka kya hua yaar 3 din se wait kar raha hun ORDER123", the model classifies the issue type, extracts the order ID, and generates an empathetic response in the same language.
+
+## Central Thesis
+
+A small, fine-tuned, domain-specific model can outperform a large general model on a narrow, well-defined task.
+
+## Links
+
+- Model: https://huggingface.co/GuruVarshini/supportlm-qwen2.5-3b
+- Demo: https://huggingface.co/spaces/GuruVarshini/supportlm-demo
+
+## Benchmark Results
+
+Evaluated on 159 held-out test examples never seen during training.
+
+| Metric | GPT-4o-mini | SFT Model | DPO Model |
+|--------|-------------|-----------|-----------|
+| Classification accuracy | 74.8% | 79.9% | 78.0% |
+| Order ID extraction | 98.7% | 99.4% | 99.4% |
+| Language match rate | 96.2% | 99.4% | 100.0% |
+
+SFT model chosen for deployment. It has the best classification accuracy which is the primary task. DPO achieved 100% language match rate but slightly reduced classification accuracy due to the rejected responses being too easy to distinguish.
+
+## Issue Types
+
+- order_status
+- return_request
+- payment_issue
+- delivery_complaint
+- product_defect
+- cancellation_request
+- wrong_item
+- discount_query
+
+## Stack
+
+- Base model: Qwen/Qwen2.5-3B-Instruct
+- Quantization: 4-bit NF4 (QLoRA)
+- Training speed: Unsloth (2x faster, 50% less VRAM)
+- Fine-tuning framework: HuggingFace TRL + PEFT
+- Experiment tracking: Weights and Biases
+- Data generation: Claude Haiku API
+- Baseline evaluation: GPT-4o-mini
+- Hardware: Google Colab T4 GPU (free tier)
+- Model hosting: HuggingFace Hub
+- Demo: HuggingFace Spaces
+
+## Project Structure
+
+```
+SupportLM/
+├── data/
+│   ├── train.json               # 1277 training examples
+│   ├── val.json                 # 159 validation examples
+│   ├── test.json                # 159 test examples (locked before training)
+│   ├── baseline_results.json    # GPT-4o-mini evaluation results
+│   ├── sft_results.json         # SFT model evaluation results
+│   └── dpo_results.json         # DPO model evaluation results
+├── checkpoints/                 # SFT training checkpoints (Google Drive)
+├── dpo-checkpoints/             # DPO training checkpoints (Google Drive)
+├── sft-adapter/                 # Saved SFT LoRA adapter
+├── dpo-adapter/                 # Saved DPO LoRA adapter
+├── merged-model/                # Final merged model
+├── app.py                       # Gradio demo app
+├── index.html                   # Static HTML demo
+└── README.md                    # This file
+```
+
+## Pipeline
+
+### Phase 0: Environment Setup
+
+Google Colab T4 GPU with Unsloth, TRL, PEFT, bitsandbytes, transformers. HuggingFace and Weights and Biases accounts.
+
+### Phase 1: Synthetic Data Generation
+
+Generated 1595 examples using Claude Haiku API at a cost of approximately Rs 95.
+
+Generation formula: 8 issue types x 2 languages x 10 variance configs x 2 batches x 5 examples per call = 1600 examples (5 failed generation = 1595 actual).
+
+Variance axes controlled during generation:
+- Anger level (frustrated, very angry, desperate, sarcastic, etc.)
+- Message length (short 5-10 words, medium 15-25, long 30-45)
+- Typos (realistic misspellings like ordar, paymant, cancle)
+- Emoji usage
+- Order ID presence or absence
+
+Split: 1277 train / 159 val / 159 test (stratified by issue type and language). Test set generated and locked before any training.
+
+### Phase 2: Baseline Evaluation
+
+GPT-4o-mini zero-shot on 159 test examples. Results saved to baseline_results.json. These numbers are the official "before" that all training phases are compared against.
+
+Results: 74.8% classification, 98.7% order ID, 96.2% language match.
+
+### Phase 3: Full Fine-tune Attempt
+
+Intentional OOM crash to demonstrate why QLoRA is necessary.
+
+Memory required for full fine-tune:
+- Weights 3B x float16 = 6 GB
+- Gradients 3B x float16 = 6 GB
+- Adam momentum 3B x float32 = 12 GB
+- Adam variance 3B x float32 = 12 GB
+- Total = 36 GB
+- T4 available = 15.6 GB
+
+Crash confirmed at optimizer.step() with only 1.81 MB VRAM remaining.
+
+### Phase 4: SFT with QLoRA + Unsloth
+
+Model loaded with 4-bit NF4 quantization reducing weights from 6GB to 1.5GB.
+
+LoRA configuration:
+- r = 16
+- alpha = 32
+- dropout = 0.0
+- target modules = q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj
+- Trainable parameters = 29.9M out of 1830M (1.64%)
+
+Training configuration:
+- Epochs = 3
+- Effective batch size = 16 (batch 2 x gradient accumulation 8)
+- Learning rate = 2e-4 with cosine schedule
+- Optimizer = adamw_8bit
+- Training time = 24 minutes
+
+Training loss curve:
+- Step 100: train 0.930, eval 1.087
+- Step 200: train 0.682, eval 1.099
+- Step 240: train 0.729, eval 1.090
+
+Best checkpoint at step 100 (eval loss 1.087) loaded automatically.
+
+### Phase 5: SFT Evaluation
+
+| Metric | Before (GPT-4o-mini) | After (SFT) | Change |
+|--------|---------------------|-------------|--------|
+| Classification accuracy | 74.8% | 79.9% | +5.1% |
+| Order ID extraction | 98.7% | 99.4% | +0.7% |
+| Language match rate | 96.2% | 99.4% | +3.2% |
+
+### Phase 6: DPO Training
+
+DPO teaches the model which responses to prefer without a reward model.
+
+Preference pair construction:
+- Chosen: high-quality response from the Claude-generated dataset
+- Rejected: either generic English response or vague unhelpful response (50/50 random)
+
+DPO configuration:
+- Beta = 0.1
+- Epochs = 1
+- Learning rate = 5e-5
+- Training time = 16 minutes
+
+rewards/accuracies reached 1.0 (100%) from step 10 onwards. Loss hit zero by step 20, indicating the rejected responses were too easy to distinguish.
+
+### Phase 7: DPO Evaluation
+
+| Metric | GPT-4o-mini | SFT | DPO |
+|--------|-------------|-----|-----|
+| Classification accuracy | 74.8% | 79.9% | 78.0% |
+| Order ID extraction | 98.7% | 99.4% | 99.4% |
+| Language match rate | 96.2% | 99.4% | 100.0% |
+
+DPO improved language match to 100% but reduced classification accuracy by 1.9%. This is a known DPO failure mode when rejected responses are too different from chosen responses. SFT model selected for deployment.
+
+### Phase 8: Merge and Deploy
+
+SFT LoRA adapter merged into base model using PeftModel.merge_and_unload(). Pushed 6.17GB merged model to HuggingFace Hub in 4 safetensor shards via api.upload_folder().
+
+### Phase 9: Demo
+
+Static HTML demo on HuggingFace Spaces. Calls HuggingFace Inference API for SupportLM and OpenAI API for GPT-4o-mini directly from the browser.
+
+## Key Concepts Covered
+
+- Knowledge distillation via synthetic data generation
+- Why full fine-tuning fails on consumer GPUs
+- QLoRA: 4-bit NF4 quantization combined with low-rank adaptation
+- LoRA hyperparameters: rank r, alpha, target modules
+- Unsloth: fused attention kernels for 2x training speedup
+- Chat template formatting for Qwen2.5 (im_start/im_end tokens)
+- Training dynamics: reading loss curves and detecting overfitting
+- DPO: preference optimization without a reward model
+- Adapter merging: permanently baking LoRA weights into base model
+- Model deployment: HuggingFace Hub + Spaces
+
+## Reproduction Steps
+
+### Requirements
+
+- Google Colab free tier with T4 GPU
+- HuggingFace account with write token
+- Weights and Biases free account
+- Claude API key (approximately Rs 95 for data generation)
+- OpenAI API key (for baseline evaluation only)
+
+### Step 1: Install dependencies
+
+```python
+pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
+pip install --no-deps trl peft accelerate bitsandbytes
+pip install wandb datasets openai anthropic
+```
+
+### Step 2: Generate data
+
+Store Claude API key in Colab Secrets as ANTHROPIC_KEY. Run the generation script. It saves a checkpoint to Drive every 20 API calls so a disconnect does not lose progress. Generates train.json, val.json, test.json automatically.
+
+### Step 3: Run baseline
+
+Store OpenAI key in Colab Secrets as OPENAI_KEY. Run GPT-4o-mini evaluation on test.json. Saves baseline_results.json.
+
+### Step 4: SFT training
+
+Load Qwen2.5-3B-Instruct with load_in_4bit=True. Attach LoRA adapters with FastLanguageModel.get_peft_model(). Train with SFTTrainer for 3 epochs. Best checkpoint loaded automatically.
+
+### Step 5: DPO training
+
+Build 1277 preference pairs from training data. Train with DPOTrainer for 1 epoch with beta=0.1.
+
+### Step 6: Evaluate
+
+Run both models on test.json. Print three-way comparison table.
+
+### Step 7: Merge and push
+
+Load SFT adapter on float16 base model (not 4-bit). Call merge_and_unload(). Push with api.upload_folder().
+
+## Cost Summary
+
+| Item | Cost |
+|------|------|
+| Data generation (Claude Haiku) | approximately Rs 95 |
+| Baseline evaluation (GPT-4o-mini) | approximately Rs 20 |
+| Training (Google Colab T4) | Free |
+| Model hosting (HuggingFace Hub) | Free |
+| Demo (HuggingFace Spaces) | Free |
+| Experiment tracking (W&B) | Free |
+| Total | approximately Rs 115 |
