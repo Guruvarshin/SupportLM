@@ -1,0 +1,13 @@
+unsloth
+trl
+peft
+accelerate
+bitsandbytes
+transformers
+datasets
+wandb
+anthropic
+openai
+gradio
+huggingface_hub
+torch
