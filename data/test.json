@@ -1,0 +1,1115 @@
+[
+  {
+    "message": "AMZ742972 order show nahi kar raha cancle karo 💔",
+    "issue_type": "order_status",
+    "order_id": "AMZ742972",
+    "language": "hinglish",
+    "response": "Bilkul bhai, mai samajhta hoon kitna annoying hai 😢 Ek minute, tera order cancel kar dunga aur refund process start kar dunga aaj hi."
+  },
+  {
+    "message": "ye ordar kab aayega AMZ742972 5 din hogaye 😡",
+    "issue_type": "order_status",
+    "order_id": "AMZ742972",
+    "language": "hinglish",
+    "response": "Arrey sorry yaar, itna late hona bilkul galat 😞 Let me track this right now - tera package kahan pe stuck hai dekhte hain aur delivery date confirm kar dunga."
+  },
+  {
+    "message": "payment to cut ho gayi kab deliver hoga",
+    "issue_type": "order_status",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "haan yaar payment success ho gaya to order zaroor process ho raha hai. Mujhe tera order details check karne do aur delivery date confirm kar dunga."
+  },
+  {
+    "message": "MYN333699 order status kya hai batao jaldi",
+    "issue_type": "order_status",
+    "order_id": "MYN333699",
+    "language": "hinglish",
+    "response": "Samajhta hoon bhai, MYN333699 kal dispatch hone wala hai aur fir tracking active hoga. Live updates ke liye app check karte raho."
+  },
+  {
+    "message": "bhai ORD737422 ka order kab aayega? 5 din ho gaye ab waiting karte karte thak gaya yaar 😤",
+    "issue_type": "order_status",
+    "order_id": "ORD737422",
+    "language": "hinglish",
+    "response": "Haan bhai samajh raha hoon frustration, ORD737422 abhi transit mein hai aur 2-3 din mein deliver ho jayega 🙏 Agar 3 din baad na aaye toh humse contact karna."
+  },
+  {
+    "message": "Bhai mere order ko 5 din ho gaye deliver hone mein, tracking mein kuch dikhai nahi de raha aur koi update bhi nahi aa raha",
+    "issue_type": "order_status",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Bilkul samajhta hoon aapki frustration ko, yeh situation kaafi annoying hota hai. Aap mujhe apne registered email ya phone number batayein, main immediately logistics team se check karke aapko update de dunga."
+  },
+  {
+    "message": "order MYN274826 payment to ho gayi delivered nahi hua",
+    "issue_type": "order_status",
+    "order_id": "MYN274826",
+    "language": "hinglish",
+    "response": "haan yaar bilkul mistake lag raha hai. MYN274826 ka order delivery mein delay ho gaya but abhi 2 din mein pakka mil jayega. Aap apna address confirm kar do please."
+  },
+  {
+    "message": "bhai mere order ko 4 din ho gaye delivery nahi hua abhi tak kya problem hai",
+    "issue_type": "order_status",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Bilkul samajh sakta hoon yaar frustration ho raha hoga aapko. Ek minute, main abhi tracking details check kar leta hoon aur aapko update de dunga."
+  },
+  {
+    "message": "bhai mere ordar OD210543 ka kya hua 5 din se kuch nahi hua 😤 paisa cut ho gaya",
+    "issue_type": "order_status",
+    "order_id": "OD210543",
+    "language": "hinglish",
+    "response": "bilkul samajh sakta hoon aapka frustration, OD210543 ke liye abhi check kar rahe hain. 2 ghante mein exact update aapko text kar denge 🙏"
+  },
+  {
+    "message": "mere order mein confused hoon kya delivered hoga ya cancel ho gaya please batao kuch samajh nahi aa raha",
+    "issue_type": "order_status",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "don't worry hum help karte hain aap apna order details share karo aur hum status clearly batayenge ki exactly kya situation hai."
+  },
+  {
+    "message": "Da, naan order pannen product pathi tracking number vandhe illa. Enna achu da, paisa poche sollunna appuram delivery eta sollunga naan",
+    "issue_type": "order_status",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Naan sorry, tracking issue irundhu irukku naan seri pannuren. Next 1 hour la tracking link nee email la receive pannuva, aprom refresh pannikkavu da"
+  },
+  {
+    "message": "dei naan order panna product vandhe illa pa, nee company thirundu pesama irukka, innthe naal refund pannunga please 😢 credit card la paisa valanghara irukku",
+    "issue_type": "order_status",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "pa sorry da inconvenience ku, naan iyae check pannuven, inntha 24 hours la refund process start panniduvom, trust pannunga okay? 💪"
+  },
+  {
+    "message": "OD877474 enna da ithu vandhe illa",
+    "issue_type": "order_status",
+    "order_id": "OD877474",
+    "language": "tanglish",
+    "response": "Ayyo seri da, naan check pannren. OD877474 transit la irukku, nalaiku vandhiduvam. Live tracking link send pannren check pannu."
+  },
+  {
+    "message": "ORDER880682 paymant diye, ordar illa 💔 ithu scam ah bro? response kudu",
+    "issue_type": "order_status",
+    "order_id": "ORDER880682",
+    "language": "tanglish",
+    "response": "Absolutely nahi bro, scam illa da! ORDER880682 ke tracking check karre immediately, 3 hours la concrete answer dunga promise 😤"
+  },
+  {
+    "message": "paisa pochi order AMZ206824 still in warehouse bro, ithu normal ah 😡",
+    "issue_type": "order_status",
+    "order_id": "AMZ206824",
+    "language": "tanglish",
+    "response": "Machan sorry da, AMZ206824 today out for delivery ah poitan. Tomorrow morning dhaan varum, wait pannunga 🙏"
+  },
+  {
+    "message": "Sollanga please, order pending state la stuck irukku, no updates, no tracking. Paisa pochi order illa bro, frustrated irukken 😤💔. When will it come or refund?",
+    "issue_type": "order_status",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Bro, your frustration is totally valid and we're sorry 🙏. Let me escalate this immediately to our logistics team - either tracking update or refund process start panren within today itself"
+  },
+  {
+    "message": "Enna da ithu status problem. Order kuda vera shipping, kuda vera return request pending. Romba confusion and frustration 😡. Please solve this fast, naan confused irukken",
+    "issue_type": "order_status",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Bro sorry da, I see the confusion. Let's clarify everything first - today itself I'll personally check both shipping and return status, then call you. Settle pannen 👍"
+  },
+  {
+    "message": "delivery late aah poche nee",
+    "issue_type": "order_status",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "apologies bro, delayed aah irukku weather issue. Aana tomorrow guarantee aah deliver aah pooh."
+  },
+  {
+    "message": "bro enna da ithu order vandhe illa, naan oru week aaguthu waiting pannitu irukken, paisa pochi order illa 😤 ethanai naal ipdi vechikalam sollunga",
+    "issue_type": "order_status",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "machan naan fully understand da, nee worry pannaadha bro 🙏 unnai call pannitu order status ku solren, 2 hours la update aagum, okay?"
+  },
+  {
+    "message": "Bro ithu order enna status iruku, in transit sollitu two weeks achu da. Money spend pannen iruku, reply pannungada.",
+    "issue_type": "order_status",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Seri da, completely understand da stress. Nee delivery partner ku contact pannaren immediately, tomorrow update guaranteed."
+  },
+  {
+    "message": "ORDER439807 return kiya paymant wapas nahi hua 3 din 😡💔",
+    "issue_type": "return_request",
+    "order_id": "ORDER439807",
+    "language": "hinglish",
+    "response": "Completely samajhta hoon frustration, refund processing mein hota hai time. ORDER439807 ka paymant check kar dunga aaj hi aur kal tak mil jayega 👍"
+  },
+  {
+    "message": "product damaged hai delivery mein, mujhe refund chahiye please kya process hai",
+    "issue_type": "return_request",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "haan yaar, damaged product ka return bilkul possible hai. Aap return initiate karo aur pickup ke time courier ko damaged item dikhana, phir refund automatically ho jayega."
+  },
+  {
+    "message": "damaged ordar ORDER439807 refund karo yaar 😢",
+    "issue_type": "return_request",
+    "order_id": "ORDER439807",
+    "language": "hinglish",
+    "response": "Bilkul sorry bhai damaged item bhej diya 💔 ORDER439807 ke liye instant return approve ho gaya, 24 hours mein pickup ho jayega aur refund 2 din mein milega"
+  },
+  {
+    "message": "ORDER305053 cancle kiya tha par paymant cut ho gayi, return bhi nahi ho raha 💔😡",
+    "issue_type": "return_request",
+    "order_id": "ORDER305053",
+    "language": "hinglish",
+    "response": "Yeh bahut serious issue hai, hume pata hai aapka gussa 😔 ORDER305053 ke liye abhi escalate kar rahe hain, refund 24-48 ghante mein sure hai."
+  },
+  {
+    "message": "ORDER439807 cancle karna tha return kyu nahi hua 😤😤",
+    "issue_type": "return_request",
+    "order_id": "ORDER439807",
+    "language": "hinglish",
+    "response": "Haan bhai, mujhe bhi samajh aa raha hai confusion. ORDER439807 ke liye abhi return label bhej deta hoon, bas 10 min wait karo 🙏"
+  },
+  {
+    "message": "recieve kiya par mujhe ye nahi chahiye return mode batao",
+    "issue_type": "return_request",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "haan bilkul bhai koi problem nahi, aap app mein initiate return kar do aur hum free pickup bhej denge. refund bhi ho jayega jab item recieve ho."
+  },
+  {
+    "message": "cancle karna chahta hun return ko MYN927473 ka kyunki refund process kharab chal raha aur full refund nahi mil raha 😤💔 ye order kal expire ho jayega, emergency help chahiye!",
+    "issue_type": "return_request",
+    "order_id": "MYN927473",
+    "language": "hinglish",
+    "response": "Aapka gussa bilkul sahi hai aur hum priority se handle kar rahe hain 🙏 MYN927473 ke liye abhi cancellation process rok rahe hain aur 2 ghante mein full refund guarantee de rahe hain directly!"
+  },
+  {
+    "message": "Yaar ORDER815841 ka return kab process hoga? 2 hafta ho gaya abhi tak kuch nahi 😤",
+    "issue_type": "return_request",
+    "order_id": "ORDER815841",
+    "language": "hinglish",
+    "response": "Bilkul samajh raha hoon bhai, aapka frustraition bilkul valid hai. ORDER815841 ke liye return status abhi check kar dete hain aur aaj hi refund process kar denge 🙏"
+  },
+  {
+    "message": "defective product tha return karna padega urgently",
+    "issue_type": "return_request",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "arre yaar defective product ke liye bohot sorry, ye theek nahi tha. ab immediate return karo aur replacement ya refund dono options available hain, bas decide kar do."
+  },
+  {
+    "message": "item defective tha return karunga please help",
+    "issue_type": "return_request",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "arey aapka item defective aagaya iska matlab aap bilkul return kar sakte ho. ek dm mein aapke item ki photo bhej do aur hum kal hi pickup schedule kar denge."
+  },
+  {
+    "message": "Dei, order vandhe kazhappu ah irukku. Warranty ah illa solran. Return pannanuma sollunga please. Enna da ithu business.",
+    "issue_type": "return_request",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Apologies sir, damaged ah vandhirukkanum. Return process start panren naan. Tomorrow email ah return slip send pannuven, nee use pannu."
+  },
+  {
+    "message": "Enna da ithu OD464694, expected ah vandhe illai, return pannirunthukalam sollunga 😠",
+    "issue_type": "return_request",
+    "order_id": "OD464694",
+    "language": "tanglish",
+    "response": "Appaadi irundha, OD464694 return initiate pannuten immediately, pickup 2 days la varum da 🙏"
+  },
+  {
+    "message": "Bro wrong item vandhche, naan order pandha item illa ithu 😡 return pannanuma ethanai time aakum sollunga please",
+    "issue_type": "return_request",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Da sorry da, wrong item la vandhche apparam athu enna issue thaan, return shipping free dhan, 3-4 days la correct item la send panduven 💪"
+  },
+  {
+    "message": "paisa pochi ithu product da, size proper la illa return pannanum sollunga",
+    "issue_type": "return_request",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "yah seri ma, size issue aapo return eh best option, nee pickup schedule pannu, return shipping free ah irukkum da"
+  },
+  {
+    "message": "return pannanuma sollunga bro AMZ316953 defective item recieved 😡 paisa refund pannalam",
+    "issue_type": "return_request",
+    "order_id": "AMZ316953",
+    "language": "tanglish",
+    "response": "da very sorry defective product kku 😢 AMZ316953 ku immediately return label send pannren, 3 days la pick up vehicle vanthudhu"
+  },
+  {
+    "message": "paisa pochi FLK185264 order illa bro return pannu",
+    "issue_type": "return_request",
+    "order_id": "FLK185264",
+    "language": "tanglish",
+    "response": "Bro, naan feel panren, paisa refund panna solren. FLK185264 return process start panram, 5-7 days la money back aagum."
+  },
+  {
+    "message": "return pannanuma sollunga, product waste",
+    "issue_type": "return_request",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Ayyo, understand bro, waste product ku return options irukku. Unakku return label send panren, athuku parcel vechu return pannu."
+  },
+  {
+    "message": "AMZ316953 order cancle pannunga immediately da 💔 waste money paisa pochi order illa",
+    "issue_type": "return_request",
+    "order_id": "AMZ316953",
+    "language": "tanglish",
+    "response": "completely understand da anger ku 🙏 AMZ316953 cancle pannikren, paymant 24 hours la refund agum, tracking link dm pannren"
+  },
+  {
+    "message": "Da bro product vandhche illa appuram one week aayirche waiting pannitu irukken, return pannanuma sollunga please 😢 paisa pochi unnecessary da ithu",
+    "issue_type": "return_request",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Aiyo da sorry da ithu happen aayirche 😔 Unakku full refund dhan kudukkum, aana product ye vandha return address ku send pannu first, then paisa varum 2-3 days la"
+  },
+  {
+    "message": "paisa pochi order illa bro FLK326331 😡",
+    "issue_type": "return_request",
+    "order_id": "FLK326331",
+    "language": "tanglish",
+    "response": "Da apdi sollathey, ithu defective product na full refund duven. FLK326331 ku return form submit pannunga, 5 days la paisa vandhudum 💯"
+  },
+  {
+    "message": "payment complete kar diya but order confirm nahi ho raha, kya dikkat hai yaar",
+    "issue_type": "payment_issue",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Haan bhai, kabhi kabhi aise ho jata hai. Teri email ya SMS check kar, agar order confirm nahi hua toh hum directly 2 hours mein confirm kar denge."
+  },
+  {
+    "message": "yaar payment gateway mein error aaya aur abhi tak paise cut ho rahe hain mere account se, kya karo please 😤 kitne paise gaye pata nahi",
+    "issue_type": "payment_issue",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Bilkul galat situation hai yaar, hum samajhte hain aapka gussa 🙏 Aap apne sare transaction details aaj hi support@app.com pe mail kar do, hum 4 ghante mein multiple refunds process kar denge"
+  },
+  {
+    "message": "mere se do baar payment cut ho gayi ek hi order ke liye, please help karo",
+    "issue_type": "payment_issue",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Bohot sorry yaar, isko urgent priority denge. Teri bank account se double deduction ka refund 3-4 business days mein process kar denge, hum tere saath hain."
+  },
+  {
+    "message": "paymant cut ho gaya refund nahi aaya",
+    "issue_type": "payment_issue",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Bilkul samajh sakte hain yaar, ye situation bahut frustrating hota hai. Aap apna registered number batao, hum 2 ghante mein check karke call kar denge refund ka status."
+  },
+  {
+    "message": "Bhai wallet mein paise tha but payment fail ho gaya aur ab kuch samajh nahi aa raha paise kahan gaye. Order to ban hi nahi paya lekin balance bhi dikhai nahi de raha. Kripaya samjhao kya hua",
+    "issue_type": "payment_issue",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Samajhte hain bohot confusing situation hai. Aap hume apna account details de dijiye toh hum turant wallet balance check karenge aur agar paise stuck hain toh 2-3 hours mein refund kar denge."
+  },
+  {
+    "message": "payment fail ho gaya AMZ516998 par paise kat gaye",
+    "issue_type": "payment_issue",
+    "order_id": "AMZ516998",
+    "language": "hinglish",
+    "response": "sorry yaar! AMZ516998 ke liye payment gateway mein glitch aaya tha. Ek dum refund process kar rahe hain, jaldi resolve ho jayega."
+  },
+  {
+    "message": "do baar debit ho gaya ek hi transaction se",
+    "issue_type": "payment_issue",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Oye yeh to galat hua, mujhe badi khusi hai aapne bataya. Duplicate charge wapas dene ka request submit kar diye hain, 3-4 din mein mil jayega."
+  },
+  {
+    "message": "paymant cut ho gayi order MYN950784 cancel 😤",
+    "issue_type": "payment_issue",
+    "order_id": "MYN950784",
+    "language": "hinglish",
+    "response": "Bilkul bhai samajh sakte hain aapka frustration 😔 MYN950784 ke liye humne refund process shuru kar diya hai, 2-3 din mein paise wapas mil jayenge aapke account mein."
+  },
+  {
+    "message": "card se paisa gaya order nahi mila",
+    "issue_type": "payment_issue",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Arrey tension mat lo, ye typically 24-48 hours mein sync ho jata hai. Agar kal tak order nahi aata to seedha contact kar liyo support mein."
+  },
+  {
+    "message": "OD437219 ke liye paise nikal gaye par kya order aayega ya bas sapna tha 😡💔",
+    "issue_type": "payment_issue",
+    "order_id": "OD437219",
+    "language": "hinglish",
+    "response": "Bilkul worry mat karo yaar, payment successful hai aur order process ho raha hai. OD437219 ka tracking link abhi bhej dete hain aur 24 hours mein update mil jayega 🙏"
+  },
+  {
+    "message": "MYN568989 paymant problem cancle pannu da 😡",
+    "issue_type": "payment_issue",
+    "order_id": "MYN568989",
+    "language": "tanglish",
+    "response": "Dei sorry bro ithu mistake aachchu 🙏 Unnoda order MYN568989 cancle pannitu paisa refund initiate pannitu irukkom, 24 hours la settle aagum."
+  },
+  {
+    "message": "Paisa pochi order illa bro, MYN996143 ku payment fail aagirukku still charge aagirukku 💔",
+    "issue_type": "payment_issue",
+    "order_id": "MYN996143",
+    "language": "tanglish",
+    "response": "Ennaiya da ithu! MYN996143 order payment reverse panren, oru 24 hours la bank account check pannu, double charge illa da guaranteed 😢"
+  },
+  {
+    "message": "paisa cut aayindi AMZ412083 order recieve panala 😡",
+    "issue_type": "payment_issue",
+    "order_id": "AMZ412083",
+    "language": "tanglish",
+    "response": "Aiyyo sorry bro! AMZ412083 payment issue-le order stuck aagiyathu 😢 Refund initiate panni ordu, next 24 hours-le money back pandren! 🙏"
+  },
+  {
+    "message": "paisa pochi order illa bro, payment twice deduct aachutaan, naan customer service call panna kuda response illa, ennada ithu da service",
+    "issue_type": "payment_issue",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "sorry bro actual ma lag aachuthu, duplicate deduction aachina we'll reverse the extra amount within 2 working days, nee registered mobile number thaan contact pannrom confirm ah"
+  },
+  {
+    "message": "FLK323283 ordar payment fail aagidhu but twice debit aagidhu da 😡 enna kuda illa product vera double charge pannittinga cancle pannu immediately 💔",
+    "issue_type": "payment_issue",
+    "order_id": "FLK323283",
+    "language": "tanglish",
+    "response": "Vera vera sorry bro double charge aaginathu 😤 FLK323283 la refund verify pannuvom now itself, 24 hours la bank account la money varum guaranteed."
+  },
+  {
+    "message": "payment gateway da thaan problem da MYN886385, paisa aana poda order aana poda 😢",
+    "issue_type": "payment_issue",
+    "order_id": "MYN886385",
+    "language": "tanglish",
+    "response": "Avlo tensionai padathey bro, MYN886385 payment issue uh final ah resolve panra - refund 48 hours la credit aagum, pakka 🙏"
+  },
+  {
+    "message": "Payment gateway error vandhudhe, paisa pochi order pani aagala sir",
+    "issue_type": "payment_issue",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Sir, ith issue dhaan many customers face panranunga, naan priority la check panren and refund process start panren immediately."
+  },
+  {
+    "message": "card se charge aaiyittu kani order confirm illa enna da ithu",
+    "issue_type": "payment_issue",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Dei naangum kanda issue ithu, understand pannurom. Refund process start pannita already, 3-5 days la account la paisa vasai vanthidum."
+  },
+  {
+    "message": "duplicate charge aaguthu cancle pannungga",
+    "issue_type": "payment_issue",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "machan duplicate charge aagal sorry dhan, immediately reverse pannurom, max 3 days ah paisa back vanthiduthu check pannu."
+  },
+  {
+    "message": "enna da ithu FLK323283 ordar ku paymant cut aagidhu but product recieve pannalai bro 😤 paisa pochi poithu vera kya help pannuvinga sollunga immediately",
+    "issue_type": "payment_issue",
+    "order_id": "FLK323283",
+    "language": "tanglish",
+    "response": "Bro namba truly sorry 😢 FLK323283 ku payment issue nadachiruchu namba understand da. 2 hours la refund process start pannuvom, track pannu namba app la."
+  },
+  {
+    "message": "paymant cut ho gayi but ordar ORD996104 nahi aaya 😡💔",
+    "issue_type": "delivery_complaint",
+    "order_id": "ORD996104",
+    "language": "hinglish",
+    "response": "Bilkul galat hua bhai! ORD996104 ke liye refund + replacement dono kar denge. Bas 24 hours wait karo, hum inbox mein details bhejenge. 🙏"
+  },
+  {
+    "message": "order lost ho gaya lagta hai",
+    "issue_type": "delivery_complaint",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Arrey aise mat soch yaar, abhi lost nahi hua hoga. Aaj ke liye waiting list mein check kar, agar 24 ghante mein nahi aaye toh immediately naya order bhej denge."
+  },
+  {
+    "message": "mere order MYN147962 7 din pehle order kiya delivery abhi nahi recieve hua kuch batao",
+    "issue_type": "delivery_complaint",
+    "order_id": "MYN147962",
+    "language": "hinglish",
+    "response": "Itne din wait karna padha, bohot regret hai humein! MYN147962 ke liye hum abhi tracking check karenge aur agar lost hai toh full refund ya replacement milega guaranteed 💯"
+  },
+  {
+    "message": "mere FLK710196 order ko cancle karna tha lekin kuch galat hua, paymant cut ho gaya but delivery bhi aah raha hai! ye madness hai, completely frustrated 😤💔 kripaya solve karo urgently!",
+    "issue_type": "delivery_complaint",
+    "order_id": "FLK710196",
+    "language": "hinglish",
+    "response": "Samajh gaye confusion ko 😔 FLK710196 ke liye abhi cancel process complete kar dunga aur refund immediately initiate karunga. 30 minutes mein confirmation message milega aapko!"
+  },
+  {
+    "message": "ORDER230621 delivery date already pass ho gayi, partner contact nahi kar raha, kya karu 😢",
+    "issue_type": "delivery_complaint",
+    "order_id": "ORDER230621",
+    "language": "hinglish",
+    "response": "Bohot galat situation hai, hum aapke ORDER230621 ke liye immediately supervisor ko assign kar rahe hain jo directly delivery partner ko manage karega 🙏 Aaj hi update aayega promise 💯"
+  },
+  {
+    "message": "package kahan hai bhai please batao na",
+    "issue_type": "delivery_complaint",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Sorry yaar, itna delay hua. Apna mobile number PM karo, hum delivery partner se contact karke 1 hour mein location bhej denge."
+  },
+  {
+    "message": "package kahan hai pata nahi chal raha",
+    "issue_type": "delivery_complaint",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Haan haan sorry yaar, ye problem ho gaya. App mein tracking check karo ya DM karo, hum abhi partner se pooch kar batate hain exact location."
+  },
+  {
+    "message": "5 din ho gaye MYN509118 abhi nahi aaya yaar",
+    "issue_type": "delivery_complaint",
+    "order_id": "MYN509118",
+    "language": "hinglish",
+    "response": "bahut galti hui hamare taraf se, MYN509118 ke liye full refund de dunga aur ek free order gift karunga."
+  },
+  {
+    "message": "Bhai mere package ko 5 din ho gaye deliver hone mein delay ho raha hai aur tracking bhi nahi update ho raha kuch batao na",
+    "issue_type": "delivery_complaint",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Bilkul samajh sakte hain aapki frustration, aisa lagta hai delivery mein koi issue aa gaya hai. Hum abhi apke package ka status check karenge aur aapko 2 ghante mein exact update denge."
+  },
+  {
+    "message": "mere ORD913863 ka delivery date nikal gaya 😡 app mein kuch show hi nahi kar raha, bahut ghalat service hai",
+    "issue_type": "delivery_complaint",
+    "order_id": "ORD913863",
+    "language": "hinglish",
+    "response": "Bilkul sahi kaha aapne, ye bahut ghalat hai. ORD913863 ke liye abhi tracking update kar dunga aur agar delivery miss ho gayi to aapko refund + complimentary shipping dunga. Trust kijiye! 💔"
+  },
+  {
+    "message": "Enna da ithu delivery three days aagithu illa bro. Paisa pochi order ku enna reason sollunga. Expected date pass aagithu da still illa",
+    "issue_type": "delivery_complaint",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Ayya sorry da delay pannatha ku. Namma tracking check panitu kondu irukku. Aval 24 hours la deliver agum da, illa na full refund koduven."
+  },
+  {
+    "message": "return pannanuma sollunga ORD447240 ke, ithu order vandhule bro 😡",
+    "issue_type": "delivery_complaint",
+    "order_id": "ORD447240",
+    "language": "tanglish",
+    "response": "Dei seri seri, ORD447240 ku return process start pannuven immediately, pickup schedule aagum 2 hours la okay?"
+  },
+  {
+    "message": "return pannanuma sollunga please",
+    "issue_type": "delivery_complaint",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Dei return pannam, issue aana vera product pathuva sonnu sollu, naan 24 hours la pickup arrange pannuven, tension vendu."
+  },
+  {
+    "message": "enna da ithu ordar vandhe illa",
+    "issue_type": "delivery_complaint",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "aama bro seri understand panren, nee track pannu location check panna solluven, 2 hours la update solren"
+  },
+  {
+    "message": "Enna sir ithu order vandhae 5 days aagi iruku pola iruku, aama vaai kattitu irukka, delivery address correct ve ilae solren, paisa pochi iruku",
+    "issue_type": "delivery_complaint",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Da very sorry, address issue irunthaale atha resolve panren immediately, naan delivery partner ku clear instruction sonnen, today evening delivery confirm."
+  },
+  {
+    "message": "paisa pochi ORD755531 vandhe illa",
+    "issue_type": "delivery_complaint",
+    "order_id": "ORD755531",
+    "language": "tanglish",
+    "response": "Apologies da, ORD755531 delay aagaadha irukku, we will track and deliver today itself or full refund pannuvom."
+  },
+  {
+    "message": "delivery boy lost MYN455741 cancle pannanuma 😤😡",
+    "issue_type": "delivery_complaint",
+    "order_id": "MYN455741",
+    "language": "tanglish",
+    "response": "Apdi aavadhu sir, MYN455741 ku full refund + compensation apdiye process panrom 🙏 2 hours la call panrom details solruvom sir"
+  },
+  {
+    "message": "Wrong address da maar marappanum delivery person solran enna pannalum illa",
+    "issue_type": "delivery_complaint",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Apdi apdiye solluvaten bro sory, address change pannren immediately, aayinum refund pannen."
+  },
+  {
+    "message": "Dei enna da ithu delivery boy contact pannala address kooda sonna vandha illa paisa waste aaguthu 😡 enna pannanum da help pannu please",
+    "issue_type": "delivery_complaint",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Dei sorry da enna issue aaguthu irundhu understand panren 😢 Naan right now delivery partner-ku escalate pannaren and nee direct call panuvaan, address confirm panni velai katti pannuvan"
+  },
+  {
+    "message": "ORD466647 parcel damaged ah vandhu ithu enna quality ah 😡 refund pannunga immediately",
+    "issue_type": "delivery_complaint",
+    "order_id": "ORD466647",
+    "language": "tanglish",
+    "response": "Ayyo sorry da, ORD466647 damaged varundhu athai sorry 🙏 replacement issue pannunna, today evening new product vechen!"
+  },
+  {
+    "message": "Paisa barbaad ORDER946225 par, defect product mila sirf 💔 return karna padega ab",
+    "issue_type": "product_defect",
+    "order_id": "ORDER946225",
+    "language": "hinglish",
+    "response": "Bilkul maafi mange bhai 🙏 ORDER946225 return karte hi nayi product send kar denge, aur refund ka guarantee dunga personally."
+  },
+  {
+    "message": "product aa gaya par bilkul broken hai",
+    "issue_type": "product_defect",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Bilkul samajh sakta hoon yaar, ye bahut frustrating hota hai. Aap humme product ki photo bhej do aur hum aapko replacement de denge quickly."
+  },
+  {
+    "message": "Yaar ye phone charger jo mila vo sirf 2 din chalaa aur phir kharab ho gaya 💔 Paise barbaad ho gaye mera. Kya replacement possible hai please help karo 🙏",
+    "issue_type": "product_defect",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Arey haan bhai, iske liye hum bilkul zimmedar hain 😔 Aap charger ko return karo aur hum aapko naya charger bhej denge free mein, bilkul risk-free. Aaj hi pickup schedule kar denge."
+  },
+  {
+    "message": "product defective hai yaar 3 din tak use kiya aur fail ho gaya 😡 cancle karo AMZ321780",
+    "issue_type": "product_defect",
+    "order_id": "AMZ321780",
+    "language": "hinglish",
+    "response": "Sorry bhai, samajh sakta hoon frustration 💔 AMZ321780 ke liye return pickup arrange kar denge, refund 5-7 din mein aajayega."
+  },
+  {
+    "message": "Watch ka strap toot gaya ek hafte mein, ye kya bakwaas product hai?",
+    "issue_type": "product_defect",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Haan bhai, ye sach mein disappointing hai. Photo click karke bhej do aur hum aapke liye free replacement arrange kar denge bas aaj hi."
+  },
+  {
+    "message": "product defective hai ORDER654559 wala return karna hai",
+    "issue_type": "product_defect",
+    "order_id": "ORDER654559",
+    "language": "hinglish",
+    "response": "samajhte hain yaar frustration. Return aur replacement dono possible hai, bas aap batao kaun sa better hai aapke liye aur hum setup kar denge."
+  },
+  {
+    "message": "Recieve hua defective item yaar cancle karo order 😡",
+    "issue_type": "product_defect",
+    "order_id": "AMZ532637",
+    "language": "hinglish",
+    "response": "Arre yaar sorry yaar! AMZ532637 ka refund process start kar rahe hain aabhi, pickup ke baad 3-4 din mein paisa wapas aa jayega 🙏"
+  },
+  {
+    "message": "Bhai mere paas jo product aaya hai uska screen bilkul toot gaya hai aur ye kaam nahi kar raha, please kuch karo na replacement dedo",
+    "issue_type": "product_defect",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Bilkul samajh rahe hain aapka frustration, ye bilkul galat hai. Aap humein apne product ki photo bhej dijiye aur hum aapko abhi hi replacement process start kar denge."
+  },
+  {
+    "message": "Bhai product aya hi nahi sahi condition mein, bilkul tootaa hua tha 😤 Ab maine kya karna hai? Refund chahiye ya replacement? Please jaldi batao yaar",
+    "issue_type": "product_defect",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Bilkul samajhta hoon bhai, ye bahut frustrating hota hai 😢 Aap ek photo bhej dijiye damaged product ka aur hum aapko same din replacement ya full refund de denge. Bas 2 minute lagega."
+  },
+  {
+    "message": "Da enna quality ithu sir, brand new aah vandhe illa maari broken product vandhe 💔 Refund pannunga please, paisa pochi aagidhu",
+    "issue_type": "product_defect",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Apology sir, quality issue ah vandha we understand your frustration. Refund or replacement, neeye choose pannu, we'll process in 24 hours guaranteed 😢"
+  },
+  {
+    "message": "product broken ah ordar vandhuthu bro",
+    "issue_type": "product_defect",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "dei sorry, broken product ku full refund ah panikalum or new item ah send panikalum. Etha prefer pannunga sollunga"
+  },
+  {
+    "message": "MYN462592 order product broken va received",
+    "issue_type": "product_defect",
+    "order_id": "MYN462592",
+    "language": "tanglish",
+    "response": "Aiyyo sorry da, broken product ah? Nee photo send pannu, immediately replacement ah replacement ah send panravan."
+  },
+  {
+    "message": "da product vandhu oru varam aaguthu broken ah irukku 😤 paisa waste aagittu ithu enna quality da sollunga return pannanuma",
+    "issue_type": "product_defect",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Seri da naan understand panren, broken product ku paisa waste aagitu intha pain worth illa 😢 Return form open pandren, 48 hours ah replacement or refund solra."
+  },
+  {
+    "message": "Seri da enna problem ithu headphones ku? Oru ear side sound illai, daan daan aagidhu. Paisa pochi order ah machan, return pannathaan aagum illaiya",
+    "issue_type": "product_defect",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Yes machan return pannalum, replacement pannalum both options iruku. Video recording pannitu send pannu bro, same day na approve pannren."
+  },
+  {
+    "message": "ithu defect da paisa waste aaguthu",
+    "issue_type": "product_defect",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "totally understand da, paisa waste aagakoodathu, replacement send pannren immediately, check panniko."
+  },
+  {
+    "message": "Defective item MYN462592 return pannanuma",
+    "issue_type": "product_defect",
+    "order_id": "MYN462592",
+    "language": "tanglish",
+    "response": "Theriyum theriyum, defect ah irundha return guaranteed. MYN462592 ku return label send panren, kalakkanam illai."
+  },
+  {
+    "message": "paisa waste ordar ORD727189 damaged goods 💔",
+    "issue_type": "product_defect",
+    "order_id": "ORD727189",
+    "language": "tanglish",
+    "response": "Dei sorry machan, damaged product ku full refund tharuven 🙏 ORD727189 return pannu, 5 days la paisa back aahidum guarantee."
+  },
+  {
+    "message": "enna da ithu FLK710327 ordar! damaged product recieve pannuten, packaging potta broken, product spoilt 😢 cancle pannunga immediately refund pannunga naa irritated!",
+    "issue_type": "product_defect",
+    "order_id": "FLK710327",
+    "language": "tanglish",
+    "response": "Vera level sorry bro, packaging damage pannatha enna reason irundha thappu amma side da 🙏 FLK710327 cancle pannuven, refund 2 days la bank account ku varnum guaranteed."
+  },
+  {
+    "message": "Bro enna joke ithu, product broken aah vandhe, warranty undo 🙏 Plz help pannu da, nalla paisa spend pannuvan mari feeling",
+    "issue_type": "product_defect",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Understand your situation brother, broken product for warranty irukku definitely 😤 Video send pannu damage ah, we'll process warranty claim in 48 hours"
+  },
+  {
+    "message": "Yaar kal order cancel karna tha but bhul gaya, ab bhi possible hai kya",
+    "issue_type": "cancellation_request",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Bilkul possible hai agar order deliver nahi hua to. Mujhe batao tum kab socho cancel karna hai, main check kar dunga aur cancel kar dunga."
+  },
+  {
+    "message": "order AMZ255211 galat item aya hai aur cancel karna padega, kya ye itna mushkil hai 😡",
+    "issue_type": "cancellation_request",
+    "order_id": "AMZ255211",
+    "language": "hinglish",
+    "response": "haan yaar bilkul samajh rahe, galat item ke liye sorry. AMZ255211 cancel kar dete hain, pickup arrange kar denge kal hi 💯"
+  },
+  {
+    "message": "Bhai maine order diya tha lekin ab nahi chahiye please cancel kar do jaldi se 😤 paise wapas kar do na mujhe bahut zarurat hai",
+    "issue_type": "cancellation_request",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Bilkul bhai hum samajh sakte hain aapki situation ko 🙏 Aapka order abhi dispatch nahi hua to hum turant cancel kar denge aur 24 ghante mein paise wapas kar denge."
+  },
+  {
+    "message": "Yaar please mera order cancel kar do abhi tak deliver nahi hua 😡 paise wapas chahiye mujhe budget issue ho gaya hai",
+    "issue_type": "cancellation_request",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Samajhte hain bhai aapki budget problem ko 💔 Agar aapka order pick up nahi hua to cancel kar denge, agar already in transit hai to delivery ke baad return kar sakte ho."
+  },
+  {
+    "message": "Mere order FLK172662 ko cancel karo na yaar, delivery se pehle hi soch gaya 😡💔",
+    "issue_type": "cancellation_request",
+    "order_id": "FLK172662",
+    "language": "hinglish",
+    "response": "Bilkul bhai, aapka order FLK172662 cancel ho jayega abhi! Agar delivery nahi hua to 100% refund milega, mein check kar dunga status 2 minutes mein 🙏"
+  },
+  {
+    "message": "Order cancel kar do please mujhe ye product ab nahi chahiye",
+    "issue_type": "cancellation_request",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Samajh gaye bhai, don't worry hum aapka order immediately cancel kar denge aur refund process start kar denge."
+  },
+  {
+    "message": "Mere order ke liye paise cut ho chuke hain but mujhe cancel karna hai 😢 kya refund process start hoga jaldi? Please batao kuch toh kar do",
+    "issue_type": "cancellation_request",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Haan bilkul cancellation ho sakta hai 💯 Aap turant cancel option press karein, refund 3-5 din mein aapke account mein aa jayega guarantee."
+  },
+  {
+    "message": "order nahi chahiye cancle kar do na",
+    "issue_type": "cancellation_request",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "theek hai bhai, 5 minute mein ho jayega. Agar order already dispatch nahi hua to paise wapas mil jayenge."
+  },
+  {
+    "message": "ORDER360063 ke liye maine cancle request bheja tha par kuch nahi hua 💔 Ab tak order ship ho chuka aur paymant bhi nahi mila wapas! Kya ye app bakwaas hai?",
+    "issue_type": "cancellation_request",
+    "order_id": "ORDER360063",
+    "language": "hinglish",
+    "response": "Haan bhai humein pata chal gaya, aapke liye really sorry! ORDER360063 ke liye immediate cancellation process start kar rahe hain aur refund 3-4 din mein aa jayega. 😢"
+  },
+  {
+    "message": "Please cancel this order, mujhe nahi chahiye ab ye product",
+    "issue_type": "cancellation_request",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Bilkul, hum samajhte hain. Cancel request process kar rahe hain, aur aapka paise 24 ghante mein wapas aa jayega."
+  },
+  {
+    "message": "Dei enna da ithu scam order cancel pannamudiuma wrong item tha sonnadhe paisa return pannunga naan serious ah pesren 😤 🙏",
+    "issue_type": "cancellation_request",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Dei serious ah viduven we are so sorry for this mix-up, cancel pannidalam and full refund give pannalam immediately 🙏 Support team contact pannuvom 2 hours la okay"
+  },
+  {
+    "message": "OD698348 cancel pannu da please",
+    "issue_type": "cancellation_request",
+    "order_id": "OD698348",
+    "language": "tanglish",
+    "response": "Aiyoh sorry da, understand panren situation. OD698348 cancel panna 2 minutes la process panren, paisa refund 3-5 days la varum."
+  },
+  {
+    "message": "Da enakku ithu product kuda vendam cancel panni voucher daa refund pannanum",
+    "issue_type": "cancellation_request",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Aama da seri, nee request submit panni once, admin team review pannitu 24 hours la decision soluvanga."
+  },
+  {
+    "message": "Enna da ithu order vandhe illa, cancel pannanuma sollunga",
+    "issue_type": "cancellation_request",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Ayyo sorry da, cancel pannalaam bro. Immediately process pannren, refund 3-4 days la varum."
+  },
+  {
+    "message": "FLK316092 cancel pannunga please urgent",
+    "issue_type": "cancellation_request",
+    "order_id": "FLK316092",
+    "language": "tanglish",
+    "response": "Apdi da, immediately cancel panni duvom. Order shipped aagala naa cancel pannuven, refund 3-5 days la vanthum."
+  },
+  {
+    "message": "Dei cancel request pannitan naan, aana kuda reply illa. Enna da ithu service, paisa vaangi order donje disappear panradhae. Enna aachu sollu",
+    "issue_type": "cancellation_request",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Da sorry sorry, delayed reply pannomae. Cancel process poradhae naan ippudi, refund 48 hours la bank account la varuvae, check pannudha"
+  },
+  {
+    "message": "Paisa pochi order illa bro, enna pannathum cancel pannunga please",
+    "issue_type": "cancellation_request",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Understood bro, waste order illa. Cancel pannren imaiam, full refund aavum."
+  },
+  {
+    "message": "OD674994 ordar cancle pannu da! enna da ithu recieve panni vendiam illa! paisa vangittom da neye! 😤 immadiately action pannu!",
+    "issue_type": "cancellation_request",
+    "order_id": "OD674994",
+    "language": "tanglish",
+    "response": "Vera seri bro, nee OD674994 order ah right now cancle pannutten! Refund process poitu 2-3 days la paisa back varum, thanks patience for."
+  },
+  {
+    "message": "Bro enna da ithu order vandhe illa almost two weeks achu waiting. Paisa bochi situation dan ithu. Cancel pannidunga please urgent ah response kudhunga.",
+    "issue_type": "cancellation_request",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Bro sorry da ithu delay ah vanthathuku. Enna panra situation da ithellam unnecessary tension. Apo cancel panrom right now, paisa refund ah two days la account la vanthurum."
+  },
+  {
+    "message": "OD698348 please cancel pannu dont want already",
+    "issue_type": "cancellation_request",
+    "order_id": "OD698348",
+    "language": "tanglish",
+    "response": "Okay okay, no problem da, OD698348 cancel panren. 24 hours la refund process start aaiduchu automatically."
+  },
+  {
+    "message": "Mere se galat mobile cover order ho gaya 😡 Maine black manga tha but white milgaya. Mujhe return karna padega kya? Koi aur solution hai?",
+    "issue_type": "wrong_item",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Beta bilkul galat hua aapke saath 😢 Hum aapko free return label denge aur aap cover wapas kar doh. Saath hi black cover directly aapke ghar bhej denge koi extra charge nahi."
+  },
+  {
+    "message": "Ye kya cheez bhej di ORD589215 mein, bilkul alag color aur size bhi galat 😤 scam lag raha",
+    "issue_type": "wrong_item",
+    "order_id": "ORD589215",
+    "language": "hinglish",
+    "response": "Bilkul bhai, isme error tha hamara, maafi chahte hain 🙏 ORD589215 ke liye refund + delivery charges wapas kar denge, bas return kar do."
+  },
+  {
+    "message": "Bhai mere saath ye kya ho gaya 😢 Mobile case order kiya tha black color ka but green wala aaya, bilkul galat! Return karna padega kya? Help please 🙏",
+    "issue_type": "wrong_item",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Haan bilkul, aapke liye ye galti ho gayi, bahut sorry 😔 Return karo aur correct color wala item immediately bhej denge, aapko koi extra charge nahi hoga."
+  },
+  {
+    "message": "Yaar please help karo 🙏 Maine dress order kiya tha size M but XXL aya hai, kaise pehnu main ab? Return process batao jaldi se",
+    "issue_type": "wrong_item",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Don't worry beta, hum immediately aapke liye replacement arrange kar denge 😊 Bas aap return portal se ye item select karke photograph le lo aur submit karo."
+  },
+  {
+    "message": "ORDER322123 ke saath cheating kar rahe ho kya?! Galat size aur galat color ka item recieve kiya 😡 Ek dum waste order hai, return karna padega. Ye service quality kaun si hai bhai!",
+    "issue_type": "wrong_item",
+    "order_id": "ORDER322123",
+    "language": "hinglish",
+    "response": "Haan bhai, ye bilkul hamari glti hai aur aapka naraz hona sahi hai 🙏 ORDER322123 ko abhi return label provide kar dunga aur sahi size aur color ka naya order process karunga. Aap thoda patience raakh lena!"
+  },
+  {
+    "message": "Mera ORD589215 aaya but isme toh bilkul alag hi item hai, kaunsa warehouse se bheja ye 😡",
+    "issue_type": "wrong_item",
+    "order_id": "ORD589215",
+    "language": "hinglish",
+    "response": "Yaar mujhe samajh aata hai frustration 😢 ORD589215 ke liye immediately replacement ya refund denge, bas pickup schedule kar do aaj."
+  },
+  {
+    "message": "ORDER878798 wrong item tha, refund chahiye na 💔",
+    "issue_type": "wrong_item",
+    "order_id": "ORDER878798",
+    "language": "hinglish",
+    "response": "Bilkul bhai, apki frustration samajhte hain! ORDER878798 ke liye refund process shuru kar rahe hain, pickup 24 ghanton mein ho jayegi. 🙏"
+  },
+  {
+    "message": "ordar mein alag item aaya maine kya order kiya tha",
+    "issue_type": "wrong_item",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Sahi kaha, ye galti humare taraf se hui. Return label bhej deta hoon abhi, aur sahi item next delivery mein mil jayega."
+  },
+  {
+    "message": "Order MYN975456 aaya but totally galat item, refund chahiye abhi kyunki ye waste kar diya 😢",
+    "issue_type": "wrong_item",
+    "order_id": "MYN975456",
+    "language": "hinglish",
+    "response": "Bilkul bhai, aapka frustration sahi hai. MYN975456 ka refund shuru kar denge agar return karo, ya sahi item re-deliver kar denge aapke choice ke hisaab se 🙏"
+  },
+  {
+    "message": "maine jo order kiya tha woh nahi aaya",
+    "issue_type": "wrong_item",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Bilkul galat hua, hume bahut kheda hai. Kal tak return label bhej dete hain aur sahi product ka guarantee dete hain."
+  },
+  {
+    "message": "Paisa pochi order illa bro. Item vandhuthu but quality and type ille. Totally wrong piece packed aaguchu. Return pannu or refund pannu, enna da ithu service.",
+    "issue_type": "wrong_item",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Understand bro, quality assurance la slip aaguchu. Nee return process start panni kudu, refund 3 days lo mark panniduven. Sorry for inconvenience, naan personally check paniruven future orders."
+  },
+  {
+    "message": "enna da ithu wrong item AMZ143130 😤",
+    "issue_type": "wrong_item",
+    "order_id": "AMZ143130",
+    "language": "tanglish",
+    "response": "Ayyo sir, sorry da! AMZ143130 ku wrong item send pannirukom, immediately return process start panrom. 2 days la pickup varum 🙏"
+  },
+  {
+    "message": "paisa pochi order FLK869038 wrong item send pannaannga cancle pannanuma 😡",
+    "issue_type": "wrong_item",
+    "order_id": "FLK869038",
+    "language": "tanglish",
+    "response": "Apologies da, ithu namma fault, FLK869038 refund full ah process pannuren, return pannu immediately 💔"
+  },
+  {
+    "message": "enna da ithu order vandhe illa, completely different item vandhuthu bro",
+    "issue_type": "wrong_item",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Aiyyo sorry bro, ithu thappu aachchu. Return pannanuma sollunga, naan immediately correct item send pannuven."
+  },
+  {
+    "message": "paisa pochi order illa bro, wrong ordar MYN197470 vandhuchu, cancle pannunga immediately 😡",
+    "issue_type": "wrong_item",
+    "order_id": "MYN197470",
+    "language": "tanglish",
+    "response": "Ayya understand panren, athu seri ille, MYN197470 refund process start pannuvom right now, return label pottiren 💔"
+  },
+  {
+    "message": "paisa pochi wrong order vandhidhu bro, expected item illa",
+    "issue_type": "wrong_item",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "enna da ithu happen aandhu sorry pa, return initiate pannikitrom, replacement avlo naal la send pannuvom"
+  },
+  {
+    "message": "enna da ithu order vandhey illa",
+    "issue_type": "wrong_item",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "da sorry confusion aagichey, correct item search pannudu namma system la, quick fix pannalam"
+  },
+  {
+    "message": "ORD586186 order illa, wrong item vandhuthu",
+    "issue_type": "wrong_item",
+    "order_id": "ORD586186",
+    "language": "tanglish",
+    "response": "Ippo resolution ku message pandren ORD586186 ya. Return initiate panna, correct item reshipping pannuven immediately."
+  },
+  {
+    "message": "paisa pochi ordar illa bro",
+    "issue_type": "wrong_item",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "enna da, settanai sorry. return panrandum full refund koduthu tharen, just initiate pannu anna"
+  },
+  {
+    "message": "OD252063 completely wrong item pichaikaara 😤",
+    "issue_type": "wrong_item",
+    "order_id": "OD252063",
+    "language": "tanglish",
+    "response": "Naan understand da, OD252063 oru major mess ayirukku! Innum instant replacement or full refund option du, enna prefer panneeya sollu bro?"
+  },
+  {
+    "message": "AMZ847575 ke liye flat 300 rupees off tha par order complete hone ke baad nahi mila, kya baat hai 😤",
+    "issue_type": "discount_query",
+    "order_id": "AMZ847575",
+    "language": "hinglish",
+    "response": "Yaar hum samajhte hain! AMZ847575 pe discount miss ho gaya, bilkul galti hamari side se tha. Hum abhi 300 rupees manually refund kar denge, done within 24 hours 🙏"
+  },
+  {
+    "message": "bhai discount show nahi ho raha order FLK448071 mein 😤 paisa zyada cut ho gaya",
+    "issue_type": "discount_query",
+    "order_id": "FLK448071",
+    "language": "hinglish",
+    "response": "bilkul samajhte hain aapka gussa 😟 FLK448071 ke liye discount issue check kar rahe hain aur 2 ghante mein refund kar denge. Aap apna number confirm karo na."
+  },
+  {
+    "message": "discount code ke liye customer care ko message bheja tha 2 din pehle but koi reply nahi 😡 ab order place karna hai kya wait karun aur kya proceed karun discount ke bina",
+    "issue_type": "discount_query",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "sorry yaar late reply ke liye 💔 aap order place kar do abhi, aur mujhe apna discount code batao, main immediately usse apply kar dunga aur refund kar dunga extra amount jo pay kiya."
+  },
+  {
+    "message": "FLK448071 paymant cut ho gayi discount ke naam pe but amount show nahi karta 😡 cheating kar rahe ho",
+    "issue_type": "discount_query",
+    "order_id": "FLK448071",
+    "language": "hinglish",
+    "response": "sorry bhai, FLK448071 mein payment process mein error aaya tha 😟 aaj se pehle refund process complete kar rahe hain aur 24 ghante mein bank account mein aa jayega."
+  },
+  {
+    "message": "Bhai maine ek discount code daala tha checkout mein par wo apply nahi hua. Paise extra cut ho gaye mere account se. Kya refund milega ya kya process hai iska?",
+    "issue_type": "discount_query",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "Bilkul samajh sakte hain aapka frustration, yeh issue common hai sometimes. Aap apne email check kariye aur hume 24 ghante mein contact karna, hum refund process immediately start kar denge."
+  },
+  {
+    "message": "Discount code FLK544035 pe invalid dikha raha hai, kya sirf mujhe hi nahi lag sakta kya 😤",
+    "issue_type": "discount_query",
+    "order_id": "FLK544035",
+    "language": "hinglish",
+    "response": "Haan yaar, wohi issue tha. FLK544035 ke liye wo code already used ho chuka tha. Lekin teri order ke liye alag 20% discount code bhej deta hoon, use kar le 🙏"
+  },
+  {
+    "message": "discount vale promo code se ordar OD747492 pe kaam nahi kar raha, bilkul jhooth 😤",
+    "issue_type": "discount_query",
+    "order_id": "OD747492",
+    "language": "hinglish",
+    "response": "Mere paas samajh aa gaya bhai 🙏 OD747492 cancel karke naya order lagao, discount manually add kar dunga. Bas cart se delete karke dobara try karo."
+  },
+  {
+    "message": "paisa waste hogaya FLK249844 discount nahi mila 💔",
+    "issue_type": "discount_query",
+    "order_id": "FLK249844",
+    "language": "hinglish",
+    "response": "Bilkul samajh raha hoon dukh. FLK249844 pe discount claim karna tha? Mere paas details bhej, aur main aaj hi compensate kar dunga 🙏"
+  },
+  {
+    "message": "bulk order pe discount milega ya nahi bhai",
+    "issue_type": "discount_query",
+    "order_id": null,
+    "language": "hinglish",
+    "response": "haan definitely bhai, bulk orders par special discount milta hai. Kitne items order karna chahte ho, bataa to exact rate bata du."
+  },
+  {
+    "message": "FLK249844 discount recieve nahi hua bhai furious 😤",
+    "issue_type": "discount_query",
+    "order_id": "FLK249844",
+    "language": "hinglish",
+    "response": "Sach kaho, yeh bilkul galat hua. FLK249844 ka discount pending tha? Chat pe order details share kar, 1 hour mein fix ho jaayega 💪"
+  },
+  {
+    "message": "paisa save pannanum discount venum da",
+    "issue_type": "discount_query",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Therinjukko bro, paisa important. Profile check pannu, extra 10% discount code already add panniruvom."
+  },
+  {
+    "message": "Dei bro, discount code apply pannanum nu solladhe enna da ithu working illa, paisa waste aagidhu. Enna panni sollanunga please.",
+    "issue_type": "discount_query",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Ayyo sorry bro, discount code issue irukku appadi. Nee code send pannuda, naan check pannitu solludren apdiye."
+  },
+  {
+    "message": "Festival sale nu sollitu discount illa da. Enna da ithu promotion ah. Enna percentage discount koduthinga sollunga bro clearly",
+    "issue_type": "discount_query",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Sorrya da confusion ah irundhurkum. Naan direct product page check panni actual discount percentage ah message panuven within two hours da."
+  },
+  {
+    "message": "Bro discount code apply pannanum sollunga, saravana stores la 500 rupees off irukku",
+    "issue_type": "discount_query",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Aama bro, discount code apply pannathuku sorry. Checkout page la code enter pannitu promo apply button click pannu, discount automatically adjust aagum."
+  },
+  {
+    "message": "Discount offer show aitu order place pannen, but checkout la apply aagala, paisa pocha feeling irukku really 💔 enna pannanum",
+    "issue_type": "discount_query",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Apdi confusion irundha real issue ah, we feel your pain! 🙏 Order details share pannu, discount eligibility check panni manually adjust pannuvom, worry padathey!"
+  },
+  {
+    "message": "bro discount code apply pannitu kuda price same thane show aaguthu, sarikku work pannuthu illa kya? paisa waste aaguthu da 😤",
+    "issue_type": "discount_query",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Ayyo seri da, discount code issue ah? Don't worry, naan immediately check panni correct price apply pannuvan. Unaku exact discount amount refund pannathaan nu guarantee. 🙏"
+  },
+  {
+    "message": "cashback vandhaa mattum podhum",
+    "issue_type": "discount_query",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Seri seri, cashback confirm pannuvom. Wallet check pannu, 3 days la varum, illa na call pannuven."
+  },
+  {
+    "message": "Bro discount code apply pannapochu illa da. Enna da ithu site ah. Paisa waste pannavenuma sollunga yaar",
+    "issue_type": "discount_query",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "Ayyo sorry da. Discount code expire aagirukalaum illa valid ah irundhalum issue irukalaum. Unakku konkrete discount code sollunga naan check pannuren bro."
+  },
+  {
+    "message": "promo code recieve pannala sir",
+    "issue_type": "discount_query",
+    "order_id": null,
+    "language": "tanglish",
+    "response": "okayda bro, code expire aagiyirukalam. fresh code send pannaren, check pannu"
+  },
+  {
+    "message": "enna da discount illa AMZ134107 ordar 😤",
+    "issue_type": "discount_query",
+    "order_id": "AMZ134107",
+    "language": "tanglish",
+    "response": "Seri seri bro, sorry da. AMZ134107 la discount apply pannikanum na, screenshot send pannu, check pannaren 🙏"
+  }
+]
